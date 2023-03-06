@@ -6,3 +6,7 @@ a{
 .Active{
     background-color: turquoise;
 }
+
+.NotActive{
+    background-color: rgba(168, 130, 130, 0.74);
+}
