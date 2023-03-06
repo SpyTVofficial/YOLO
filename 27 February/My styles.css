@@ -7,10 +7,12 @@ a{
     background-color: turquoise;
     border-radius: 40px;
     padding: 10px;
+    margin: 5px;
 }
 
 .NotActive{
     background-color: rgba(168, 130, 130, 0.74);
     border-radius: 40px;
     padding: 10px;
+    margin: 5px;
 }
