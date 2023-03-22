@@ -1,9 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>  
-      <meta charset="UTF-8" /> 
-       <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-         <title>Document</title>  
-         <style>      .square {        width: 50px;        height: 50px;        display: inline-block;      }      .black {        background-color: darkgrey;      }      .white {        background-color: lightgrey;      }      img{        width: 50px;        height: 50px;      }      .board {        display: inline-block;        border-width: 2px;        border-style: solid;        border-color: red      }    </style>  </head>  <body>    <div xlass="board">      <div>      <div class="square black">        <img src="./images/blackrook.png" alt="BlackRook">      </div>      <div class="square white">        <img src="./images/blackknight.png" alt="BlackKnight">      </div>      <div class="square black">        <img src="./images/blackbishop.png" alt="BlackBishop">      </div>      <div class="square white">        <img src="./images/blackking.png" alt="BlackKing">      </div>      <div class="square black">        <img src="./images/blackqueen.png" alt="BlackQueen">      </div>      <div class="square white">        <img src="./images/blackbishop.png" alt="Blackbishop">      </div>      <div class="square black">        <img src="./images/blackknight.png" alt="Blackknight">      </div>      <div class="square white">        <img src="./images/blackrook.png" alt="Blackrook">      </div>    </div>    <div>      <div class="square white">        <img src="./images/blackpawn.png" alt="Blackpawn">      </div>      <div class="square black">        <img src="./images/blackpawn.png" alt="Blackpawn">      </div>      <div class="square white">        <img src="./images/blackpawn.png" alt="Blackpawn">      </div>      <div class="square black">        <img src="./images/blackpawn.png" alt="Blackpawn">      </div>      <div class="square white">        <img src="./images/blackpawn.png" alt="Blackpawn">      </div>      <div class="square black">        <img src="./images/blackpawn.png" alt="Blackpawn">      </div>      <div class="square white">        <img src="./images/blackpawn.png" alt="Blackpawn">      </div>      <div class="square black">        <img src="./images/blackpawn.png" alt="Blackpawn">      </div>    </div>    <div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>    </div>    <div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>    </div>    <div>      <div class="square black">           </div>         <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>    </div>    <div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>      <div class="square white"></div>      <div class="square black"></div>    </div>    <div>      <div class="square black">        <img src="./images/whitepawn.png" alt="whitepawn">      </div>      <div class="square white">        <img src="./images/whitepawn.png" alt="whitepawn">      </div>      <div class="square black">        <img src="./images/whitepawn.png" alt="whitepawn">      </div>      <div class="square white">        <img src="./images/whitepawn.png" alt="whitepawn">      </div>      <div class="square black">        <img src="./images/whitepawn.png" alt="whitepawn">      </div>      <div class="square white">        <img src="./images/whitepawn.png" alt="whitepawn">      </div>      <div class="square black">        <img src="./images/whitepawn.png" alt="whitepawn">      </div>      <div class="square white">        <img src="./images/whitepawn.png" alt="whitepawn">      </div>    </div>    <div>      <div class="square white">        <img src="./images/whiterook.png" alt="whiteRook">      </div>      <div class="square black">        <img src="./images/whiteknight.png" alt="whiteknight">      </div>      <div class="square white">        <img src="./images/whitebishop.png" alt="whitebishop">      </div>      <div class="square black">        <img src="./images/whiteking.png" alt="whiteking">      </div>      <div class="square white">        <img src="./images/whitequeen.png" alt="whitequeen">      </div>      <div class="square black">        <img src="./images/whitebishop.png" alt="whitebishop">      </div>      <div class="square white">        <img src="./images/whiteknight.png" alt="whiteknight">      </div>      <div class="square black">        <img src="./images/whiterook.png" alt="whiteRook">      </div>    </div>    </div>  </body></html>
+  <head>
+    <meta charset="UTF-8" />
 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <style>
+      .square {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+      }
+
+      .black {
+        background-color: darkgrey;
+      }
+
+      .white {
+        background-color: lightgrey;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      .board {
+        display: inline-block;
+        border-width: 2px;
+        border-style: solid;
+        border-color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div xlass="board">
+      <div>
+        <div class="square black">
+          <img src="Chessboard Images/blackrook.png" alt="BlackRook" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/black knight.png" alt="BlackKnight" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/black  bishop.png" alt="BlackBishop" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/black king.png" alt="BlackKing" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/black royal.png" alt="BlackQueen" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/black  bishop.png" alt="Blackbishop" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/black knight.png" alt="Blackknight" />
+        </div>
+
+        <div class="square white">
+          <img src= "Chessboard Images/blackrook.png" alt="Blackrook" />
+        </div>
+      </div>
+
+      <div>
+        <div class="square white">
+          <img src="Chessboard Images/black pawn.png" alt="Blackpawn" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/black pawn.png" alt="Blackpawn" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/black pawn.png" alt="Blackpawn" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/black pawn.png" alt="Blackpawn" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/black pawn.png" alt="Blackpawn" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/black pawn.png" alt="Blackpawn" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/black pawn.png" alt="Blackpawn" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/black pawn.png" alt="Blackpawn" />
+        </div>
+      </div>
+
+      <div>
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+      </div>
+
+      <div>
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+      </div>
+
+      <div>
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+      </div>
+
+      <div>
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+
+        <div class="square white"></div>
+
+        <div class="square black"></div>
+      </div>
+
+      <div>
+        <div class="square black">
+          <img src="Chessboard Images/white pawn.png"whitepawn" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/white pawn.png"whitepawn" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/white pawn.png"whitepawn" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/white pawn.png"whitepawn" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/white pawn.png"whitepawn" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/white pawn.png"whitepawn" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/white pawn.png"whitepawn" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/white pawn.png"whitepawn" />
+        </div>
+      </div>
+
+      <div>
+        <div class="square white">
+          <img src="Chessboard Images/white rook.png" alt="whiteRook" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/white knight.png" alt="whiteknight" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/white bishop.png" alt="whitebishop" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/white king .png" alt="whiteking" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/white royal.png" alt="whitequeen" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/white bishop.png" alt="whitebishop" />
+        </div>
+
+        <div class="square white">
+          <img src="Chessboard Images/white knight.png" alt="whiteknight" />
+        </div>
+
+        <div class="square black">
+          <img src="Chessboard Images/white rook.png" alt="whiteRook" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
