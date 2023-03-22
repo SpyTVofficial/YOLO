@@ -22,7 +22,7 @@ p {
 }
 
 .navBar {
-  text-align: center;
+
   background-color: bisque;
   display: flex;
   justify-content: center;
@@ -30,10 +30,15 @@ p {
 
 .NavBarLinks {
   width: 50px;
+  background-color: aquamarine;
   display: flex;
   justify-content: space-evenly;
 }
-
 #LOGO{
+  display: inline-block;
+  background-color: aqua;
+}
+#LOGO img{
     height: 150px;
+    
 }
