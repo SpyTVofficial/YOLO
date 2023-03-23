@@ -29,14 +29,12 @@ p {
 }
 
 .NavBarLinks {
-  width: 50px;
-  background-color: aquamarine;
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
 }
 #LOGO{
   display: inline-block;
-  background-color: aqua;
 }
 #LOGO img{
     height: 150px;
