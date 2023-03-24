@@ -17,12 +17,12 @@ a {
   margin: 10px;
 }
 p {
+  color: purple;
   font-size: 30px;
   text-align: center;
 }
 
 .navBar {
-
   background-color: bisque;
   display: flex;
   justify-content: center;
@@ -33,10 +33,15 @@ p {
   display: flex;
   justify-content: space-evenly;
 }
-#LOGO{
+#LOGO {
   display: inline-block;
 }
-#LOGO img{
-    height: 150px;
-    
+#LOGO img {
+  height: 150px;
+}
+
+body{
+  background-image: url("Images for Website/Fantastic\ Beasts\ and\ Harry\ Potter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
