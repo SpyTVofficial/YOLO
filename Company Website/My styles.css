@@ -5,16 +5,16 @@ a {
 
 .Active {
   background-color: turquoise;
-  border-radius: 40px;
+}
+
+.LinkOnTheNavbar {
+  border-radius: 50px;
   padding: 10px;
   margin: 5px;
 }
 
 .NotActive {
   background-color: rgba(168, 130, 130, 0.74);
-  border-radius: 50px;
-  padding: 10px;
-  margin: 10px;
 }
 p {
   color: purple;
@@ -26,6 +26,8 @@ p {
   background-color: bisque;
   display: flex;
   justify-content: center;
+  height: 100px;
+  align-items: center;
 }
 
 .NavBarLinks {
@@ -36,11 +38,13 @@ p {
 #LOGO {
   display: inline-block;
 }
+
 #LOGO img {
-  height: 150px;
+  height: 100px;
+  width: 50px;
 }
 
-body{
+body {
   background-image: url("Images for Website/Fantastic\ Beasts\ and\ Harry\ Potter.jpg");
   background-repeat: no-repeat;
   background-size: cover;
