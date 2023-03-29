@@ -17,13 +17,13 @@ a {
   background-color: rgba(168, 130, 130, 0.74);
 }
 p {
-  color: purple;
+  color: darkblue;
   font-size: 30px;
   text-align: center;
 }
 
 .navBar {
-  background-color: bisque;
+  background: linear-gradient(to right, blue, yellow);
   display: flex;
   justify-content: center;
   height: 100px;
@@ -41,7 +41,7 @@ p {
 
 #LOGO img {
   height: 100px;
-  width: 50px;
+  width: 100px;
 }
 
 body {
