@@ -49,3 +49,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.Characters{
+  height: 200px;
+  width: 200px;
+}
