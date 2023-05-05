@@ -55,3 +55,9 @@ body {
   flex-direction: row;
   justify-content: space-evenly
 }
+
+.Harry-Potter-Characters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
