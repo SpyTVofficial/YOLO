@@ -45,7 +45,19 @@ p {
 }
 
 body {
-  background-image: url("Images for Website/harry\ potter\ fantastic-beasts-and-where-to-find-them-newt-scamander.jpg");
+  background-image: url("Images for Website/Fantastic\ Beasts\ and\ Harry\ Potter.jpg");
   background-repeat: no-repeat;
   background-size:cover;
+}
+
+.Characters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+.Harry-Potter-Characters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
