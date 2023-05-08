@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .Container {
+      position: relative;
+    }
+    .Top {
+      position: absolute;
+      z-index: 50;
+    }
+    .dropdown {
+      position: absolute;
+      z-index: 5;
+      
+    }
+    .Container:hover .dropdown {
+      transform: translateY(100%);
+      z-index: 50;
+      transition: all 0.5s ease-in-out;
+    }
+  </style>
+  <body>
+    <div class="Container">
+      <img
+        class="Top"
+        src="/Company Website/Images for website/HarryPotter.jpg"
+      />
+      <img
+        class="dropdown"
+        src="/Company Website/Images for website/Luna Lovegood.jpg"
+      />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+a {
+  color: darkviolet;
+  text-decoration: none;
+}
+
+.Active {
+  background-color: turquoise;
+}
+
+.LinkOnTheNavbar {
+  border-radius: 50px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.NotActive {
+  background-color: rgba(168, 130, 130, 0.74);
+}
+p {
+  color: lime;
+  font-size: 30px;
+  text-align: center;
+}
+
+.navBar {
+  background: linear-gradient(to right, blue, yellow);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+.NavBarLinks {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#LOGO {
+  display: inline-block;
+}
+
+#LOGO img {
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  background-image: url("Images for Website/Harry\ Potter\ and\ Newt\ Scamander.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Characters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Harry-Potter-Characters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+}
